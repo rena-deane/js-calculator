@@ -1,3 +1,27 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+ text-transform: uppercase;
+ text-align: center;
+}
+
+#container{
+  border-radius: .5em;
+  border: thin solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 50%;
+}
+
+#inner-container{
+  padding: 0 1em 2em 1em;
+}
+
+#see-equation {
+  background-color: #F0E68C;
+  border-radius: .4em;
+  height: 3em;
+}
