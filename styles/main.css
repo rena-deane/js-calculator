@@ -3,8 +3,9 @@ body {
 }
 
 h1 {
- text-transform: uppercase;
- text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
 }
 
 #container{
@@ -13,7 +14,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  width: 50%;
+  width: 20em;
 }
 
 #inner-container{
@@ -23,5 +24,9 @@ h1 {
 #see-equation {
   background-color: #F0E68C;
   border-radius: .4em;
-  height: 3em;
+  height: 2em;
+  margin-bottom: 1em;
+  padding-right: .5em;
+  text-align: right;
 }
+
