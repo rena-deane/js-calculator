@@ -18,15 +18,19 @@ h1 {
 }
 
 #inner-container{
-  padding: 0 1em 2em 1em;
+  padding: 1em;
 }
 
-#see-equation {
+#see-equation{
+  margin: 0;
+}
+
+#solution {
   background-color: #F0E68C;
   border-radius: .4em;
+  width: 100%;
   height: 2em;
   margin-bottom: 1em;
-  padding-right: .5em;
   text-align: right;
 }
 
