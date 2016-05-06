@@ -52,3 +52,22 @@ input#zero.calcButton{
   background-color: white;
   border-left: thin solid #636363;
 }
+
+.operator {
+  background-color: #eaa417;
+  border-right: thin solid #636363;
+  border-left: thin solid #636363;
+  color: white;
+}
+
+.decimal{
+  border-left: thin solid #636363;
+}
+
+.clear {
+  border-left: thin solid #636363;
+}
+
+#percentage {
+  border-left: thin solid #636363;
+}
