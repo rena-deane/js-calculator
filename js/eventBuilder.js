@@ -1,13 +1,25 @@
-// AC allClear
-var getAC = document.getElementById('allClear');
-getAC.addEventListener("click", function(){
-    document.getElementById('solutionID').value = "";
+// multiply
+var getMultiply = document.getElementById('multiply');
+getMultiply.addEventListener("click", function(){
+    document.getElementById('solutionID').value += "*";
   });
 
-// zero
-var getZero = document.getElementById('zero');
-getZero.addEventListener("click", function(){
-    document.getElementById('solutionID').value += 0;
+// divide
+var getDivide = document.getElementById('divide');
+getDivide.addEventListener("click", function(){
+    document.getElementById('solutionID').value += "/";
+  });
+
+// minus
+var getMinus = document.getElementById('minus');
+getMinus.addEventListener("click", function(){
+    document.getElementById('solutionID').value += "-";
+  });
+
+// +
+var getAddition = document.getElementById('addition');
+getAddition.addEventListener("click", function(){
+    document.getElementById('solutionID').value += "+";
   });
 
 // one
@@ -62,4 +74,18 @@ getEight.addEventListener("click", function(){
 var getNine = document.getElementById('nine');
 getNine.addEventListener("click", function(){
     document.getElementById('solutionID').value += 9;
+  });
+
+// CE ClearEntry
+var getCE = document.getElementById('clearEntry');
+getCE.addEventListener("click", function(){
+    var str = document.getElementById('solutionID').value;
+    var slicedNo = str.slice(0,-1);
+    document.getElementById('solutionID').value = slicedNo;
+    });
+
+// AC allClear
+var getAC = document.getElementById('allClear');
+getAC.addEventListener("click", function(){
+    document.getElementById('solutionID').value = "";
   });
