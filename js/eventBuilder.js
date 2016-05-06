@@ -1,3 +1,9 @@
+// AC allClear
+var getAC = document.getElementById('allClear');
+getAC.addEventListener("click", function(){
+    document.getElementById('solutionID').value = "";
+  });
+
 // zero
 var getZero = document.getElementById('zero');
 getZero.addEventListener("click", function(){
