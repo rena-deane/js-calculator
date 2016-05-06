@@ -1,4 +1,4 @@
-// equal
+// sum
 var getSum = document.getElementById('sum');
 getSum.addEventListener("click", function(){
      var sum = document.getElementById('solutionID').value;
