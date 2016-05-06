@@ -1,3 +1,11 @@
+// equal
+var getSum = document.getElementById('sum');
+getSum.addEventListener("click", function(){
+     var sum = document.getElementById('solutionID').value;
+     var sumReturn = eval(sum);
+     document.getElementById('solutionID').value = sumReturn;
+  });
+
 // multiply
 var getMultiply = document.getElementById('multiply');
 getMultiply.addEventListener("click", function(){
@@ -20,6 +28,12 @@ getMinus.addEventListener("click", function(){
 var getAddition = document.getElementById('addition');
 getAddition.addEventListener("click", function(){
     document.getElementById('solutionID').value += "+";
+  });
+
+// Zero
+var getZero = document.getElementById('zero');
+getZero.addEventListener("click", function(){
+    document.getElementById('solutionID').value += 0;
   });
 
 // one
@@ -89,3 +103,4 @@ var getAC = document.getElementById('allClear');
 getAC.addEventListener("click", function(){
     document.getElementById('solutionID').value = "";
   });
+
