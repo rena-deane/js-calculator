@@ -10,19 +10,14 @@ h1 {
   font-size: 1.5em;
 }
 
-
-
-#container{
-  border-radius: .5em;
-  border: thin solid #000000;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-  width: 20em;
+input {
+  border:0;
 }
 
-#inner-container{
-  padding: 1em;
+#container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
 }
 
 #see-equation{
@@ -31,7 +26,6 @@ h1 {
 
 #solutionID {
   background-color: #636363;
-  border-radius: .2em;
   border: none;
   color: white;
   font-size: 2em;
@@ -41,3 +35,20 @@ h1 {
   text-align: right;
 }
 
+
+.calcButton {
+  border-bottom: thin solid #636363;
+  font-size: 1.15em;
+  height: 2.5em;
+  width: 25%; 
+  float:left;
+}
+
+input#zero.calcButton{
+  width: 50%;
+}
+
+.number {
+  background-color: white;
+  border-left: thin solid #636363;
+}
